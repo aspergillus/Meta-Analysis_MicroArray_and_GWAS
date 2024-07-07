@@ -1,0 +1,165 @@
+.sidebar input{
+	box-sizing: border-box;
+  border: 2px solid #ccc;
+  transition: 0.5s;
+  outline: medium;
+  vertical-align: middle;
+	display: inline-block;
+}
+.sidebar input:focus {
+  border: 2px solid #555;
+}
+
+.sidebar {
+  height: 800px;
+  width: 215px;
+  position: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #31859C;
+  overflow-x: hidden;
+  padding-top: 0px;
+  display: inline-block;
+}
+#main-sidebar {
+ position: absolute;
+  background: white;
+  padding: 0px;
+  width: 1085px;
+  height: 800px;
+  display: inline-block;
+  float: left;
+  overflow: scroll;
+}
+
+
+.sidebar label{
+	color: white;
+	font-size: 11px;
+	margin: 0px;
+	
+	display: inline-block;
+	
+}
+.sidebar p{
+	color: black;
+	margin: 0px;
+	margin-bottom: 1px;
+	background: white;
+	border: black solid;
+	padding: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.sidebar form{
+	display: inline;
+	padding-left: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) 
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}*/
+
+.dataset{
+	height: 800px;
+	width: 1100px;
+	margin: auto;
+	overflow: scroll;
+	background: white;
+	
+}
+#main-sidebar svg{
+	display: block;
+	margin: 10px;
+}
+#main-sidebar .box{
+	display: block;
+	border: 2px solid black;
+	
+}
+
+#main-sidebar table {
+	border-collapse: separate;
+	border-spacing: 0;
+	margin: 15px;
+	
+}
+#main-sidebar th{
+	position: sticky;
+	top: 0;
+	background: #C3E0E9; 
+	vertical-align: top;
+	border-top: 2px solid #31859C;
+	border-bottom: 2px solid #31859C;
+	border-right: 2px solid #31859C;
+	font-size: 13px;
+	padding: 5px;
+
+}
+#main-sidebar tr{
+	
+}
+#main-sidebar td{
+		vertical-align: top;
+		text-align: justify;
+		padding: 10px;
+		width: 14%;
+		border-right: 2px solid #31859C;
+		border-bottom: 2px solid #31859C;
+		font-size: 12px;
+		word-spacing: normal;
+	}
+	#main-sidebar table th:first-child, #main-sidebar table td:first-child{
+  /* Apply a left border on the first <td> or <th> in a row */
+  border-left: 2px solid #31859C;
+
+}
+#main-sidebar table td:first-child{
+	  	    word-break: break-word;
+}
+#main-sidebar button{
+	cursor: pointer;
+}
+
+.dataset  a{
+	cursor: pointer;
+}
+.main-swsp{
+	background: white;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	
+}
+.main-swsp h3{
+	text-align: center;
+}
+.main-swsp svg{
+	margin: auto;
+}
+#groupedbar svg{
+	align-content: center;
+	width: inherit;
+	margin: auto;
+}
+
+
+.donut{
+	background: white;
+	width:inherit;
+	margin: auto;
+	
+}.donut svg{
+	display: block;
+	margin: auto;
+	padding: 15px;
+	
+}
+.donut h3{
+	text-align: center;
+	margin: 15px;
+}

@@ -1,0 +1,264 @@
+body {
+    height: 60vh;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+.jumpotron {
+    text-align: center;
+    font-size: -webkit-xxx-large;
+}
+
+/* Loading CSS */
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #000;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+/* End of loading CSS */
+
+.midDiv_platForm{
+    margin: 0 auto;
+    padding: 0; 
+    display: inline-flex;
+}
+
+.plat_Form_list{
+    padding: 5px;
+}
+
+.platForm_techno, .platForm_Company, .platForm_Title{
+    margin: 0 auto;
+}
+
+
+/* Parameters */
+.tPvalue,
+.tLogfcu,
+.tLogfcd {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.headUpldleft,
+.headUpldRight {
+    font-size: 14px;
+}
+
+.upldANDdrag {
+    place-content: center;
+}
+
+.non-selected,
+.control-selected,
+.treatment-selected,
+.upload_grp {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    float: right;
+    display: block;
+}
+
+.arrow_sign {
+    align-self: center;
+    text-align-last: center;
+    font-size: 30px;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.control_submit,
+.treatment_submit {
+    text-align-last: center;
+}
+
+.connectedList {
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0px 5px 0px;
+    width: 100%;
+}
+
+ul li {
+    width: inherit;
+    padding: 5px 0px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+}
+
+ul li:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.ui-sortable-helper {
+    background-color: #e5e5e5;
+    -webkit-box-shadow: 0 0 8px rgba(53, 41, 41, 0.8);
+    -moz-box-shadow: 0 0 8px rgba(53, 41, 41, 0.8);
+    box-shadow: 0 0 8px rgba(53, 41, 41, 0.8);
+    transform: scale(1.015);
+    z-index: 100;
+}
+
+ul li.ui-sortable-placeholder {
+    background-color: #ddd;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.selBut {
+    border: 1px solid #000;
+}
+
+.tleAnl {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.leftTle {
+    flex: 1;
+}
+
+.rightTle {
+    flex: 1;
+}
+
+.duplicBtn,
+.removeBnt {
+    background: #efefef;
+}
+
+input[type=text] {
+    width: 35%;
+    padding: 5px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    float: right;
+    font-size: 12px;
+}
+
+input[type=file] {
+    font-size: 12px;
+}
+
+.tPvalue, .tLogfcu, .tLogfcd{
+    width: 35%;
+}
+
+label {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.duplicBtn, .removeBnt{
+    font-weight: 600;
+    margin-right: 25px;
+    border: groove;
+}
+
+.duplicBtn, .removeBnt, .submitBnt{
+    font-size: 12px;
+}
+
+button[type=submit]{
+    font-weight: 600;
+    margin-right: 25px;
+    border: groove;
+}
+
+.allBtn{
+    text-align: center;
+}
+
+#vennTitlevennTitle {
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lablClsVenn{
+    font-weight: bold;
+}
+
+.vennPathway, .vennGenes{
+    display: flex;
+}
+
+.PvennLablcls, .GvennLablcls{
+    flex: 0.3;
+    text-align: left;
+}
+
+
+/* .pVal, .logFCU, .logFCD{
+    font-weight: 100;
+} */
